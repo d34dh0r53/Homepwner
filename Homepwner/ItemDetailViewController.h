@@ -8,9 +8,16 @@
 
 #import <UIKit/UIKit.h>
 
-
-@interface ItemDetailViewController : UIViewController {
-    
+@class Possession;
+@interface ItemDetailViewController : UIViewController <UINavigationControllerDelegate, UIImagePickerControllerDelegate>
+{
+    IBOutlet UITextField *nameField;
+    IBOutlet UITextField *serialNumberField;
+    IBOutlet UITextField *valueField;
+    IBOutlet UILabel *dateLabel;
+    IBOutlet UIImageView *imageView;
 }
+
+@property (nonatomic, assign) Possession *editingPossession;
 
 @end

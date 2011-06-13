@@ -10,7 +10,7 @@
 
 
 @implementation Possession
-@synthesize possessionName, serialNumber, valueInDollars, dateCreated;
+@synthesize possessionName, serialNumber, valueInDollars, dateCreated, imageKey;
 
 + (id)randomPossession
 {
@@ -77,6 +77,7 @@
     [possessionName release];
     [serialNumber release];
     [dateCreated release];
+    [imageKey release];
     [super dealloc];
 }
 

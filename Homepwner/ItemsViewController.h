@@ -8,9 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
+@class ItemDetailViewController;
 
-@interface ItemsViewController : UIViewController {
-    
+
+@interface ItemsViewController : UITableViewController {
+//    UIView *headerView;
+    ItemDetailViewController *detailViewController;
+    NSMutableArray *possessions;
 }
+
+//- (UIView *)headerView;
 
 @end

@@ -11,6 +11,13 @@
 
 @interface ImageCache : NSObject {
     
+    NSMutableDictionary *dictionary;
+    
 }
+
++ (ImageCache *)sharedImageCache;
+- (void)setImage:(UIImage *)i forKey:(NSString *)s;
+- (UIImage *)imageForKey:(NSString *)s;
+- (void)deleteImageForKey:(NSString *)s;
 
 @end

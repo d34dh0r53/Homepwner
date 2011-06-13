@@ -7,6 +7,7 @@
 //
 
 #import "HomepwnerAppDelegate.h"
+#import "ItemsViewController.h"
 
 @implementation HomepwnerAppDelegate
 
@@ -15,7 +16,16 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    // Create a ItemsViewController
+    itemsViewController = [[ItemsViewController alloc] init];
+    
+    // Create an instance of a UINavigationController
+    // it's stack contains only itemsViewController
+    UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:itemsViewController];
+    
+    // Place ItemsViewController's table view in the window hierarchy
+    [self.window addSubview:[navController view]];
+    
     [self.window makeKeyAndVisible];
     return YES;
 }

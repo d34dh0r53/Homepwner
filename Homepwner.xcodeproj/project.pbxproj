@@ -14,6 +14,11 @@
 		E3C690C713A3903000413C14 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E3C690C613A3903000413C14 /* main.m */; };
 		E3C690CA13A3903000413C14 /* HomepwnerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E3C690C913A3903000413C14 /* HomepwnerAppDelegate.m */; };
 		E3C690CD13A3903000413C14 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3C690CB13A3903000413C14 /* MainWindow.xib */; };
+		E3C690D513A3912400413C14 /* ItemsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3C690D413A3912400413C14 /* ItemsViewController.m */; };
+		E3C690D813A392BA00413C14 /* Possession.m in Sources */ = {isa = PBXBuildFile; fileRef = E3C690D713A392BA00413C14 /* Possession.m */; };
+		E3C690DC13A6177300413C14 /* ItemDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3C690DA13A6177300413C14 /* ItemDetailViewController.m */; };
+		E3C690DD13A6177300413C14 /* ItemDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3C690DB13A6177300413C14 /* ItemDetailViewController.xib */; };
+		E3C690E013A6305400413C14 /* ImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = E3C690DF13A6305400413C14 /* ImageCache.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,13 +26,22 @@
 		E3C690B913A3903000413C14 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E3C690BB13A3903000413C14 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E3C690BD13A3903000413C14 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		E3C690C113A3903000413C14 /* Homepwner-Info.plist */ = {isa = PBXFileReference; path = "Homepwner-Info.plist"; sourceTree = "<group>"; };
+		E3C690C113A3903000413C14 /* Homepwner-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Homepwner-Info.plist"; sourceTree = "<group>"; };
 		E3C690C313A3903000413C14 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		E3C690C513A3903000413C14 /* Homepwner-Prefix.pch */ = {isa = PBXFileReference; path = "Homepwner-Prefix.pch"; sourceTree = "<group>"; };
+		E3C690C513A3903000413C14 /* Homepwner-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Homepwner-Prefix.pch"; sourceTree = "<group>"; };
 		E3C690C613A3903000413C14 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		E3C690C813A3903000413C14 /* HomepwnerAppDelegate.h */ = {isa = PBXFileReference; path = HomepwnerAppDelegate.h; sourceTree = "<group>"; };
+		E3C690C813A3903000413C14 /* HomepwnerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomepwnerAppDelegate.h; sourceTree = "<group>"; };
 		E3C690C913A3903000413C14 /* HomepwnerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomepwnerAppDelegate.m; sourceTree = "<group>"; };
 		E3C690CC13A3903000413C14 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		E3C690D313A3912400413C14 /* ItemsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemsViewController.h; sourceTree = "<group>"; };
+		E3C690D413A3912400413C14 /* ItemsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemsViewController.m; sourceTree = "<group>"; };
+		E3C690D613A392BA00413C14 /* Possession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Possession.h; sourceTree = "<group>"; };
+		E3C690D713A392BA00413C14 /* Possession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Possession.m; sourceTree = "<group>"; };
+		E3C690D913A6177300413C14 /* ItemDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemDetailViewController.h; sourceTree = "<group>"; };
+		E3C690DA13A6177300413C14 /* ItemDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemDetailViewController.m; sourceTree = "<group>"; };
+		E3C690DB13A6177300413C14 /* ItemDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ItemDetailViewController.xib; sourceTree = "<group>"; };
+		E3C690DE13A6305400413C14 /* ImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageCache.h; sourceTree = "<group>"; };
+		E3C690DF13A6305400413C14 /* ImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageCache.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +92,13 @@
 				E3C690C913A3903000413C14 /* HomepwnerAppDelegate.m */,
 				E3C690CB13A3903000413C14 /* MainWindow.xib */,
 				E3C690C013A3903000413C14 /* Supporting Files */,
+				E3C690D313A3912400413C14 /* ItemsViewController.h */,
+				E3C690D413A3912400413C14 /* ItemsViewController.m */,
+				E3C690D913A6177300413C14 /* ItemDetailViewController.h */,
+				E3C690DA13A6177300413C14 /* ItemDetailViewController.m */,
+				E3C690DB13A6177300413C14 /* ItemDetailViewController.xib */,
+				E3C690DE13A6305400413C14 /* ImageCache.h */,
+				E3C690DF13A6305400413C14 /* ImageCache.m */,
 			);
 			path = Homepwner;
 			sourceTree = "<group>";
@@ -85,6 +106,8 @@
 		E3C690C013A3903000413C14 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E3C690D613A392BA00413C14 /* Possession.h */,
+				E3C690D713A392BA00413C14 /* Possession.m */,
 				E3C690C113A3903000413C14 /* Homepwner-Info.plist */,
 				E3C690C213A3903000413C14 /* InfoPlist.strings */,
 				E3C690C513A3903000413C14 /* Homepwner-Prefix.pch */,
@@ -142,6 +165,7 @@
 			files = (
 				E3C690C413A3903000413C14 /* InfoPlist.strings in Resources */,
 				E3C690CD13A3903000413C14 /* MainWindow.xib in Resources */,
+				E3C690DD13A6177300413C14 /* ItemDetailViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,6 +178,10 @@
 			files = (
 				E3C690C713A3903000413C14 /* main.m in Sources */,
 				E3C690CA13A3903000413C14 /* HomepwnerAppDelegate.m in Sources */,
+				E3C690D513A3912400413C14 /* ItemsViewController.m in Sources */,
+				E3C690D813A392BA00413C14 /* Possession.m in Sources */,
+				E3C690DC13A6177300413C14 /* ItemDetailViewController.m in Sources */,
+				E3C690E013A6305400413C14 /* ImageCache.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
